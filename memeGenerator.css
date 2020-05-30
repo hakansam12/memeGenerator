@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+  body {
+    max-width: 500px;
+    background-color: #efece5;
+    margin: auto; }
+  
+  h1 {
+    font-size: 56px;
+    font-weight: bolder;
+    padding: 30px 0;
+    color: #efece5; }
+  
+  label,
+  p,
+  button {
+    font-size: 22px; }
+  
+  header {
+    text-align: center;
+    background-color: red;
+    padding: 30px 40px; }
+  
+  #formArea {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black; }
+  
+  form {
+    padding: 5px; }
+    form section {
+      display: block;
+      padding: 3px 0; }
+    form section:last-of-type {
+      text-align: center; }
+    form input {
+      width: 65%;
+      height: 20px;
+      padding: 0 5px;
+      margin: 3px 0; }
+      form input:focus {
+        border: 2px solid red;
+        border-radius: 4px; }
+    form button {
+      background-color: purple;
+      border: none;
+      color: #efece5;
+      padding: 16px 32px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 15px;
+      cursor: pointer; }
+  
+  .imgSection {
+    position: relative;
+    color: #efece5;
+    margin: 15px 0;
+    border: 1px solid #efece5; }
+    .imgSection p {
+      font-size: 42px;
+      font-weight: bold; }
+    .imgSection img {
+      max-width: 500px;
+      max-height: 500px;
+      object-fit: contain; }
+  
+  .topText {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center; }
+  
+  .bottomText {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center; }
+  
+  .imgSection button {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 5px;
+    transition: all .25s;
+    border: none; }
+    .imgSection button:hover {
+      background-color: #F04D47;
+      color: #efece5; }
+  
+  #displayArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
